@@ -6,7 +6,7 @@ import time
 def fetch_data(thread_id):
     try:
         response = requests.get(
-            'https://bjporzn.cyou/home.html')  # Set a timeout
+            'enter your url for attack')  # Set a timeout
         if response.status_code == 200:
             try:
                 data = response  # Try parsing JSON
